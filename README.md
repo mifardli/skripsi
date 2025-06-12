@@ -47,7 +47,7 @@ Proyek ini dikembangkan menggunakan:
 ## 🔍 Metodologi
 
 1. **Preprocessing data suhu, NDVI, dan presipitasi**
-2. **Ekstraksi nilai pixel berbasis zonasi Sub DAS**
+2. **Ekstraksi nilai menggunakan Google Earth Engine**
 3. **Analisis statistik deskriptif dan korelasi**
 4. **Modeling regresi dan klasifikasi probabilistik**
 5. **Visualisasi peluang kekeringan berdasarkan SPI**
