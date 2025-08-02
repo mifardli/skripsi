@@ -6,7 +6,8 @@ This research aims to analyze drought probability using spatial and statistical 
 
 **Miftahul Ardli**  
 Student ID: 150510180225  
-Department of Agrotechnology  
+Agrotechnology Study Program  
+Department of Soil Science and Land Resources  
 Faculty of Agriculture  
 Universitas Padjadjaran
 
@@ -105,7 +106,8 @@ Penelitian ini bertujuan untuk menganalisis peluang kejadian kekeringan dengan p
 
 **Miftahul Ardli**  
 NIM: 150510180225  
-Program Studi Agroteknologi  
+Program Studi Agroteknologi
+Departemen Ilmu Tanah dan Sumber Daya Lahan
 Fakultas Pertanian  
 Universitas Padjadjaran
 
