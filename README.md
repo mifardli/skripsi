@@ -91,7 +91,7 @@ This project is part of the undergraduate thesis submitted to obtain a Bachelor�
 - **Ade Setiawan, SP, MP** – Primary Reviewer  
 - **Santika Sari, SP, MP** – Secondary Reviewer  
 
-Special thanks to the **ALG research team** and all those who supported me both technically and morally during the preparation of this project.
+Special thanks to the **ALG research team** and everyone who provided technical or moral support during the preparation of this project.
 
 Thank you for your valuable contributions and encouragement.
 
