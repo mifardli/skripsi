@@ -82,6 +82,13 @@ Email: mifardli21@gmail.com / miftahul18002@unpad.ac.id
 LinkedIn: [linkedin.com/in/mifardli](https://linkedin.com/in/mifardli)
 
 ---
+## ⚡ Bonus: XGBoost Model
+
+In addition to the main Random Forest model, this project also includes an experimental implementation of the **XGBoost** algorithm (Extreme Gradient Boosting) to compare performance in drought prediction.
+
+XGBoost is known for its speed and accuracy in regression tasks and is widely used in data science competitions and real-world applications. Although the Random Forest model performed best in this study, the inclusion of XGBoost provides an additional benchmark and enhances model comparison.
+
+---
 
 ## 🙏 Acknowledgements
 
@@ -184,6 +191,12 @@ Jika ada pertanyaan atau kolaborasi, silakan hubungi:
 Email: mifardli21@gmail.com/ miftahul18002@unpad.ac.id
 Linkedin: https://linkedin.com/in/mifardli
 
+---
+## ⚡ Bonus: Model XGBoost
+
+Selain model utama Random Forest, proyek ini juga mencakup implementasi eksperimental dari algoritma **XGBoost** (*Extreme Gradient Boosting*) untuk membandingkan performa dalam prediksi kekeringan.
+
+XGBoost dikenal luas karena kecepatan dan akurasinya dalam tugas regresi, serta sering digunakan dalam kompetisi data science maupun aplikasi dunia nyata. Meskipun model Random Forest memberikan performa terbaik dalam penelitian ini, penambahan XGBoost berfungsi sebagai tolok ukur tambahan dan memperkaya proses perbandingan model.
 ---
 
 ## 🙏 Ucapan Terima Kasih
