@@ -1,4 +1,4 @@
-# Peluang Kejadian Kekeringan Berdasarkan Suhu Permukaan, Keragaman Vegetasi, dan Presipitasi di Sub DAS Cikapundung
+# Peluang Kekeringan Berdasarkan Karakteristik Suhu Permukaan, Kehijauan Vegetasi, dan Presipitasi di Sub DAS Cikapundung
 
 Penelitian ini bertujuan untuk menganalisis peluang kejadian kekeringan dengan pendekatan spasial dan statistik berdasarkan tiga parameter utama, yaitu suhu permukaan, keragaman vegetasi (NDVI), dan presipitasi. Studi kasus dilakukan pada wilayah Sub DAS Cikapundung, Bandung.
 
@@ -14,52 +14,53 @@ Universitas Padjadjaran
 
 ## 🧪 Deskripsi Proyek
 
-Analisis dilakukan dengan pendekatan kuantitatif berbasis Python melalui pemodelan regresi linear, klasifikasi, dan visualisasi spasial data. Beberapa teknik eksplorasi data digunakan untuk memahami hubungan antara variabel iklim dan vegetasi terhadap potensi kekeringan.
+Analisis dilakukan dengan pendekatan kuantitatif berbasis Python dan Google Earth Engine, menggunakan regresi linear dan Random Forest untuk memodelkan hubungan antara LST, NDVI, dan CHIRPS terhadap SPI-3. Eksplorasi data spasial-temporal dilakukan melalui visualisasi, korelasi, dan interpolasi spasial.
 
 ---
 
 ## 🛠 Environment & Tools
 
+## ⚙️ Environment
+
 Proyek ini dikembangkan menggunakan:
 
-- **Python** versi ≥ 3.8
-- **Jupyter Notebook** (via Anaconda / VS Code)
+- **Python** ≥ 3.8
+- **Jupyter Notebook** (via Anaconda atau VS Code)
+- Ekstraksi data dilakukan di **Google Earth Engine** (GEE) menggunakan JavaScript API.
 
-### 📦 Library yang Digunakan
+### 📦 Library Python yang Digunakan
 
-- `numpy`
-- `pandas`
-- `matplotlib`
-- `seaborn`
-- `scikit-learn`
-- `statsmodels`
-- `rasterio`
-- `geopandas`
-- `shapely`
-- `pyproj`
-- `fiona`
-- `scipy`
-- `xarray`
-- `netCDF4`
+- `numpy` – operasi numerik
+- `pandas` – manipulasi dan analisis data tabular
+- `matplotlib` & `seaborn` – visualisasi grafik & distribusi
+- `scikit-learn` – model machine learning (Random Forest, KNN, Gradient Boosting)
+- `statsmodels` – regresi linear & uji statistik
+- `scipy` – interpolasi spasial (`griddata`) dan fungsi statistik
+- `joblib` – menyimpan model (.pkl)
+
 
 ---
 
 ## 🔍 Metodologi
 
-1. **Preprocessing data suhu, NDVI, dan presipitasi**
-2. **Ekstraksi nilai menggunakan Google Earth Engine**
-3. **Analisis statistik deskriptif dan korelasi**
-4. **Modeling regresi dan klasifikasi probabilistik**
-5. **Visualisasi peluang kekeringan berdasarkan SPI**
+1. **Ekstraksi data LST, NDVI, dan CHIRPS** secara bulanan (2013–2022) menggunakan Google Earth Engine (GEE)
+2. **Penghitungan nilai SPI-3** (Standardized Precipitation Index) dari data CHIRPS menggunakan distribusi Gamma
+3. **Pembersihan dan penggabungan data** menjadi dataset spasial-temporal
+4. **Analisis statistik deskriptif, korelasi Pearson, dan regresi linear multivariat**
+5. **Pemodelan prediktif** menggunakan algoritma *Random Forest Regressor* (dibandingkan dengan KNN, Gradient Boosting, dan regresi linear)
+6. **Visualisasi** hasil analisis dalam bentuk grafik time-series, scatterplot, learning curve, serta peta interpolatif berbasis `scipy.interpolate.griddata`
 
 ---
 
-## 🧾 Data
+## 🌐 Sumber Data
 
-Data diambil dari berbagai sumber terbuka:
-- **Suhu permukaan & NDVI**: Landsat (NASA)
-- **Presipitasi**: CHIRPS / TRMM dataset
+Seluruh data dikumpulkan dari sumber terbuka melalui platform Google Earth Engine:
 
+- **Land Surface Temperature (LST)** dan **NDVI**:  
+  → *Landsat 8 Collection 1 Tier 1* – disediakan oleh **USGS & NASA**
+
+- **Presipitasi**:  
+  → *CHIRPS Daily v2.0* – dikembangkan oleh **Climate Hazards Center (CHC), UCSB, USGS**, dengan dukungan **USAID, NASA, NOAA**
 ---
 
 ## 🔒 Catatan
