@@ -84,7 +84,7 @@ LinkedIn: [linkedin.com/in/mifardli](https://linkedin.com/in/mifardli)
 ---
 ## ⚡ Bonus: XGBoost Model
 
-In addition to the main Random Forest model, this project also includes an experimental implementation of the **XGBoost** algorithm (Extreme Gradient Boosting) to compare performance in drought prediction.
+In addition to the main Random Forest model, this project also includes an experimental implementation of the **XGBoost** algorithm (*Extreme Gradient Boosting*) to compare performance in drought prediction.
 
 XGBoost is known for its speed and accuracy in regression tasks and is widely used in data science competitions and real-world applications. Although the Random Forest model performed best in this study, the inclusion of XGBoost provides an additional benchmark and enhances model comparison.
 
@@ -194,9 +194,10 @@ Linkedin: https://linkedin.com/in/mifardli
 ---
 ## ⚡ Bonus: Model XGBoost
 
-Selain model utama Random Forest, proyek ini juga mencakup implementasi eksperimental dari algoritma **XGBoost** (*Extreme Gradient Boosting*) untuk membandingkan performa dalam prediksi kekeringan.
+Sebagai pelengkap dari model utama **Random Forest**, proyek ini juga menyertakan implementasi eksperimental dari algoritma **XGBoost** (*Extreme Gradient Boosting*) untuk membandingkan performa dalam prediksi kekeringan.
 
-XGBoost dikenal luas karena kecepatan dan akurasinya dalam tugas regresi, serta sering digunakan dalam kompetisi data science maupun aplikasi dunia nyata. Meskipun model Random Forest memberikan performa terbaik dalam penelitian ini, penambahan XGBoost berfungsi sebagai tolok ukur tambahan dan memperkaya proses perbandingan model.
+**XGBoost** dikenal karena kecepatannya dan akurasi tinggi dalam tugas regresi, serta banyak digunakan dalam kompetisi data science maupun aplikasi nyata. Meskipun model **Random Forest** memberikan hasil terbaik dalam studi ini, keberadaan **XGBoost** berperan sebagai tolok ukur tambahan yang memperkaya perbandingan performa model.
+
 ---
 
 ## 🙏 Ucapan Terima Kasih
