@@ -104,6 +104,10 @@ Special thanks to the **ALG research team** and everyone who provided technical 
 Thank you for your valuable contributions and encouragement.
 
 ---
+> 📌 **Disclaimer**  
+> This repository serves as a simplified technical documentation of the author's undergraduate thesis.  
+> It is **not intended as a formal academic publication**, and does not substitute for peer-reviewed or published works.  
+> Any reproduction, citation, or reuse of this repository for academic or commercial purposes should be done with proper credit to the author.
 
 # Peluang Kekeringan Berdasarkan Karakteristik Suhu Permukaan, Kehijauan Vegetasi, dan Presipitasi di Sub DAS Cikapundung
 
@@ -217,3 +221,8 @@ Ucapan terima kasih khusus kepada:
 Penulis juga mengucapkan terima kasih kepada seluruh rekan di tim penelitian ALG dan semua pihak yang telah mendukung, baik secara teknis maupun moral, selama proses pengerjaan proyek ini.
 
 Terima kasih atas segala kontribusi dan dukungannya. 🙏
+
+> 📌 **Disclaimer**  
+> Repositori ini merupakan dokumentasi teknis sederhana dari tugas akhir penulis (skripsi).  
+> Repositori ini **bukan merupakan publikasi ilmiah resmi**, dan tidak dimaksudkan sebagai pengganti karya yang telah ditinjau sejawat atau diterbitkan secara formal.  
+> Setiap penggunaan ulang, kutipan, atau reproduksi untuk keperluan akademik maupun komersial harus disertai dengan atribusi yang sesuai kepada penulis.
