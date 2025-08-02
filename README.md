@@ -1,3 +1,102 @@
+#  Drought Probability Based on Land Surface Temperature, Vegetation Greenness, and Precipitation in the Cikapundung Sub-Watershed
+
+This research aims to analyze drought probability using spatial and statistical approaches based on three key parameters: land surface temperature (LST), vegetation greenness (NDVI), and precipitation. The case study is focused on the Cikapundung Sub-watershed area, Bandung, Indonesia.
+
+## 👤 Author
+
+**Miftahul Ardli**  
+Student ID: 150510180225  
+Department of Agrotechnology  
+Faculty of Agriculture  
+Universitas Padjadjaran
+
+---
+
+## 🧪 Project Description
+
+The analysis was conducted using a quantitative approach based on Python and Google Earth Engine. Regression (linear and Random Forest) models were used to examine the relationship between LST, NDVI, and CHIRPS toward SPI-3 drought index. Spatio-temporal data exploration was performed through correlation analysis, interpolation, and data visualization.
+
+---
+
+## ⚙️ Environment & Tools
+
+This project was developed using:
+
+- **Python** ≥ 3.8  
+- **Jupyter Notebook** (via Anaconda or VS Code)  
+- Data extraction was performed via **Google Earth Engine** (JavaScript API)
+
+### 📦 Python Libraries
+
+- `numpy` – numerical operations  
+- `pandas` – data manipulation and analysis  
+- `matplotlib`, `seaborn` – data visualization  
+- `scikit-learn` – machine learning (Random Forest, KNN, Gradient Boosting)  
+- `statsmodels` – linear regression & statistical testing  
+- `scipy` – spatial interpolation (`griddata`) and stats functions  
+- `joblib` – saving model artifacts (.pkl)
+
+---
+
+## 🔍 Methodology
+
+1. **Data extraction of LST, NDVI, and CHIRPS** on a monthly scale (2013–2022) using Google Earth Engine (GEE)  
+2. **SPI-3 computation** (Standardized Precipitation Index) from CHIRPS using Gamma distribution  
+3. **Cleaning and merging datasets** into a composite spatio-temporal format  
+4. **Statistical analysis** (descriptive statistics, Pearson correlation, multivariate linear regression)  
+5. **Predictive modeling** using Random Forest Regressor (compared with KNN, Gradient Boosting, Linear Regression)  
+6. **Visualization**: time-series plots, scatterplots, learning curves, and spatial interpolation using `scipy.interpolate.griddata`
+
+---
+
+## 🌐 Data Sources
+
+All datasets were retrieved from open sources via Google Earth Engine:
+
+- **LST & NDVI**:  
+  → *Landsat 8 Collection 1 Tier 1* – provided by **USGS & NASA**
+
+- **Precipitation**:  
+  → *CHIRPS Daily v2.0* – developed by **Climate Hazards Center (CHC), UCSB, USGS**  
+  with support from **USAID, NASA, and NOAA**
+
+---
+
+## 🔒 Note
+
+Due to licensing and size limitations, some data may not be publicly included in this repository. Please contact the author for access or inquiries.
+
+---
+
+## 📜 License
+
+This repository is for academic and research purposes only (undergraduate thesis). Please provide proper citation if using or adapting parts of the analysis or code. Commercial use is not permitted without written permission.
+
+---
+
+## 📫 Contact
+
+**Miftahul Ardli**  
+Email: mifardli21@gmail.com / miftahul18002@unpad.ac.id  
+LinkedIn: [linkedin.com/in/mifardli](https://linkedin.com/in/mifardli)
+
+---
+
+## 🙏 Acknowledgements
+
+This project is part of the undergraduate thesis submitted to obtain a Bachelor’s degree in Agriculture at Universitas Padjadjaran. I would like to express my deepest gratitude to the individuals who provided academic guidance and feedback throughout this work:
+
+- **Prof. Dr. Ir. H. Mahfud Arifin, MS** – Chief Thesis Advisor  
+- **Dr. Muhammad Amir Solihin, SP, MT** – Co-Advisor & Head of Study Program  
+- **Ade Setiawan, SP, MP** – Primary Reviewer  
+- **Santika Sari, SP, MP** – Secondary Reviewer  
+
+Special thanks to the **ALG research team** and all those who supported me both technically and morally during the preparation of this project.
+
+Thank you for your valuable contributions and encouragement.
+
+---
+
 # Peluang Kekeringan Berdasarkan Karakteristik Suhu Permukaan, Kehijauan Vegetasi, dan Presipitasi di Sub DAS Cikapundung
 
 Penelitian ini bertujuan untuk menganalisis peluang kejadian kekeringan dengan pendekatan spasial dan statistik berdasarkan tiga parameter utama, yaitu suhu permukaan, keragaman vegetasi (NDVI), dan presipitasi. Studi kasus dilakukan pada wilayah Sub DAS Cikapundung, Bandung.
@@ -84,3 +183,21 @@ Email: mifardli21@gmail.com/ miftahul18002@unpad.ac.id
 Linkedin: https://linkedin.com/in/mifardli
 
 ---
+
+## 🙏 Ucapan Terima Kasih
+
+Proyek ini merupakan bagian dari tugas akhir yang disusun untuk memperoleh gelar Sarjana Pertanian di Universitas Padjadjaran. Penulis menyampaikan terima kasih sebesar-besarnya kepada pihak-pihak yang telah membimbing dan memberikan arahan selama proses penelitian dan pengembangan proyek ini.
+
+Ucapan terima kasih khusus kepada:
+
+- **Prof. Dr. Ir. H. Mahfud Arifin, MS** – selaku Ketua Komisi Pembimbing, atas bimbingan, arahan, dan motivasi yang konsisten selama penyusunan skripsi dan proyek ini.
+
+- **Dr. Muhammad Amir Solihin, SP, MT** – selaku Anggota Komisi Pembimbing dan Ketua Program Studi Agroteknologi, atas masukan mendalam terkait metode geospasial dan kontribusinya dalam pengembangan ide penelitian.
+
+- **Ade Setiawan, SP, MP** – selaku Ketua Komisi Penelaah, atas kritik dan saran yang membangun dalam penyempurnaan karya ilmiah ini.
+
+- **Santika Sari, SP, MP** – selaku Anggota Komisi Penelaah, atas perhatian dan koreksi yang sangat membantu dalam meningkatkan kualitas hasil akhir.
+
+Penulis juga mengucapkan terima kasih kepada seluruh rekan di tim penelitian ALG dan semua pihak yang telah mendukung, baik secara teknis maupun moral, selama proses pengerjaan proyek ini.
+
+Terima kasih atas segala kontribusi dan dukungannya. 🙏
