@@ -212,7 +212,7 @@ Ucapan terima kasih khusus kepada:
 
 - **Prof. Dr. Ir. H. Mahfud Arifin, MS** – selaku Ketua Komisi Pembimbing, atas bimbingan, arahan, dan motivasi yang konsisten selama penyusunan skripsi dan proyek ini.
 
-- **Dr. Muhammad Amir Solihin, SP, MT** – selaku Anggota Komisi Pembimbing dan Ketua Program Studi Agroteknologi, atas masukan mendalam terkait metode geospasial dan kontribusinya dalam pengembangan ide penelitian.
+- **Dr. Muhammad Amir Solihin, SP, MT** – selaku Anggota Komisi Pembimbing dan Ketua Program Studi Agroteknologi, atas masukan mendalam terkait metode dan kontribusinya dalam pengembangan penelitian.
 
 - **Ade Setiawan, SP, MP** – selaku Ketua Komisi Penelaah, atas kritik dan saran yang membangun dalam penyempurnaan karya ilmiah ini.
 
