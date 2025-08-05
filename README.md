@@ -1,6 +1,6 @@
 #  Drought Probability Based on Land Surface Temperature, Vegetation Greenness, and Precipitation in the Cikapundung Sub-Watershed
 
-This research aims to analyze drought probability using spatial and statistical approaches based on three key parameters: land surface temperature (LST), vegetation greenness (NDVI), and precipitation. The case study is focused on the Cikapundung Sub-watershed area, Bandung, Indonesia.
+This research aims to analyze drought probability using spatial and statistical approaches based on three key parameters: land surface temperature (LST), vegetation greenness (NDVI), and precipitation. The case study is focused on the Cikapundung Sub-watershed area specific Lembang, Indonesia.
 
 ## 👤 Author
 
@@ -111,7 +111,7 @@ Thank you for your valuable contributions and encouragement.
 
 # Peluang Kekeringan Berdasarkan Karakteristik Suhu Permukaan, Kehijauan Vegetasi, dan Presipitasi di Sub DAS Cikapundung
 
-Penelitian ini bertujuan untuk menganalisis peluang kejadian kekeringan dengan pendekatan spasial dan statistik berdasarkan tiga parameter utama, yaitu suhu permukaan, keragaman vegetasi (NDVI), dan presipitasi. Studi kasus dilakukan pada wilayah Sub DAS Cikapundung, Bandung.
+Penelitian ini bertujuan untuk menganalisis peluang kejadian kekeringan dengan pendekatan spasial dan statistik berdasarkan tiga parameter utama, yaitu suhu permukaan, keragaman vegetasi (NDVI), dan presipitasi. Studi kasus dilakukan pada wilayah Sub DAS Cikapundung, Lembang.
 
 ## 👤 Penulis
 
