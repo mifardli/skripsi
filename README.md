@@ -1,5 +1,7 @@
 #  Drought Probability Based on Land Surface Temperature, Vegetation Greenness, and Precipitation in the Cikapundung Sub-Watershed
 
+![Repo Views](https://komarev.com/ghpvc/?username=mifardli&repo=skripsi&color=blue)
+
 This research aims to analyze drought probability using spatial and statistical approaches based on three key parameters: land surface temperature (LST), vegetation greenness (NDVI), and precipitation. The case study is focused on the Cikapundung Sub-watershed area specific Lembang, Indonesia.
 
 ## 👤 Author
