@@ -77,6 +77,7 @@ Due to licensing and size limitations, some data may not be publicly included in
 
 This repository is for academic and research purposes only (undergraduate thesis). Please provide proper citation if using or adapting parts of the analysis or code. Commercial use is not permitted without written permission.
 
+Full Document: https://shorturl.at/FTDde
 ---
 
 ## 📫 Contact
@@ -188,7 +189,7 @@ Karena keterbatasan lisensi  dan ukuran file, sebagian data mungkin tidak tersed
 ## 📜 Lisensi
 
 Repositori ini dibuat untuk keperluan akademik (skripsi) dan tidak dimaksudkan untuk penggunaan komersial tanpa izin tertulis. Silakan cantumkan kutipan jika mengadaptasi sebagian kode atau analisis.
-
+Dokumen Penuh: https://shorturl.at/FTDde
 ---
 
 ## 📫 Kontak
