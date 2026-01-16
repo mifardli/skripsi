@@ -21,6 +21,7 @@ Universitas Padjadjaran
 
 The analysis was conducted using a quantitative approach based on Python and Google Earth Engine. Regression (linear and Random Forest) models were used to examine the relationship between LST, NDVI, and CHIRPS toward SPI-3 drought index. Spatio-temporal data exploration was performed through correlation analysis, interpolation, and data visualization.
 
+Full Document: https://shorturl.at/FTDde
 ---
 
 ## ⚙️ Environment & Tools
@@ -77,7 +78,7 @@ Due to licensing and size limitations, some data may not be publicly included in
 
 This repository is for academic and research purposes only (undergraduate thesis). Please provide proper citation if using or adapting parts of the analysis or code. Commercial use is not permitted without written permission.
 
-Full Document: https://shorturl.at/FTDde
+
 ---
 
 ## 📫 Contact
@@ -133,6 +134,7 @@ Universitas Padjadjaran
 
 Analisis dilakukan dengan pendekatan kuantitatif berbasis Python dan Google Earth Engine, menggunakan regresi linear dan Random Forest untuk memodelkan hubungan antara LST, NDVI, dan CHIRPS terhadap SPI-3. Eksplorasi data spasial-temporal dilakukan melalui visualisasi, korelasi, dan interpolasi spasial.
 
+Dokumen Penuh: https://shorturl.at/FTDde
 ---
 
 ## 🛠 Environment & Tools
@@ -189,7 +191,7 @@ Karena keterbatasan lisensi  dan ukuran file, sebagian data mungkin tidak tersed
 ## 📜 Lisensi
 
 Repositori ini dibuat untuk keperluan akademik (skripsi) dan tidak dimaksudkan untuk penggunaan komersial tanpa izin tertulis. Silakan cantumkan kutipan jika mengadaptasi sebagian kode atau analisis.
-Dokumen Penuh: https://shorturl.at/FTDde
+
 ---
 
 ## 📫 Kontak
